@@ -1,0 +1,2 @@
+Day so tang dan: 1.0, 5.0, 5.5, 66.0, 88.0
+Tong cac so: 165.5

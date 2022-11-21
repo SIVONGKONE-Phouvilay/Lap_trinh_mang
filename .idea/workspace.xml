@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="926d33aa-6d71-4c2e-be5d-d5d4e337f13b" name="Changes" comment="Thread">
-      <change afterPath="$PROJECT_DIR$/src/VeHinh/Clientdemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VeHinh/Clientdemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VeHinh/ThreadClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VeHinh/ThreadServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UDP/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UDP/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VeHinh/Clientdemo3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VeHinh/Clientdemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VeHinh/Clientdemo2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

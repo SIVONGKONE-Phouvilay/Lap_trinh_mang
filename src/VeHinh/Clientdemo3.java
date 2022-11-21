@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Clientdemo2 {
+public class Clientdemo3 {
     public final static String SERVER_IP = "127.0.0.1"; //"10.10.10.59";
     public final static int SERVER_PORT = 9;
     public static Scanner scanner = new Scanner(System.in);
@@ -24,7 +24,6 @@ public class Clientdemo2 {
             System.out.println("nhap:");
             String str = scanner.nextLine();
             System.out.println(str);
-
             os.writeUTF(str);
             String toServer = is.readUTF();
             System.out.println(toServer);

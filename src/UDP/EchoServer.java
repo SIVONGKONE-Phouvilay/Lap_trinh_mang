@@ -3,6 +3,8 @@ package UDP;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 
 public class EchoServer {
 
@@ -20,10 +22,11 @@ public class EchoServer {
             while (true) { // Tạo gói tin nhận
                 DatagramPacket incoming = new DatagramPacket(BUFFER, BUFFER.length);
                 ds.receive(incoming); // Chờ nhận gói tin gởi đến
-
+                System.out.println("Data length:"+ incoming.getLength());
+                Charset code = StandardCharsets.US_ASCII;
                 // Lấy dữ liệu khỏi gói tin nhận
-                String message = new String(incoming.getData(), 0, incoming.getLength());
-                System.out.println("Received: " + message);
+                String message = new String(incoming.getData(), 0, incoming.getLength(), code);
+                System.out.println("Received from: " +incoming.getAddress() +":"+ message);
 
                 // Tạo gói tin gởi chứa dữ liệu vừa nhận được
                 DatagramPacket outsending = new DatagramPacket(message.getBytes(), incoming.getLength(),

@@ -1,4 +1,4 @@
-package VeHinh;
+package Shape;
 import java.io.*;
 import java.net.Socket;
 import java.util.concurrent.ThreadLocalRandom;
@@ -40,7 +40,7 @@ public class ShapeThread extends Thread {
         BufferedReader b = null;
         try {
             System.out.println("Send request to:" + ip + " ...");
-            sk = new Socket(ip, 1000);
+            sk = new Socket(ip, 999);
             System.out.println("Connected: " + sk);
             ot = new DataOutputStream(sk.getOutputStream());
             int v1 = ThreadLocalRandom.current().nextInt(2, 30);

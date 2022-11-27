@@ -1,4 +1,6 @@
-package VeHinh;
+package Shape;
+
+import Shape.ShapeThread;
 
 import java.io.*;
 import java.net.ServerSocket;

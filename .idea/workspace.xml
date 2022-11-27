@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="926d33aa-6d71-4c2e-be5d-d5d4e337f13b" name="Changes" comment="Echo from va messeage">
-      <change afterPath="$PROJECT_DIR$/src/VeHinh/ShapeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VeHinh/ShapeThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/udp1/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/udp1/client.java" afterDir="false" />
+    <list default="true" id="926d33aa-6d71-4c2e-be5d-d5d4e337f13b" name="Changes" comment="UDP maxServer">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shape/ClientShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shape/Clientdemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shape/ThreadClientShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shape/ThreadServerShape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UDP/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UDP/EchoClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UDP/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UDP/EchoServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VeHinh/Clientdemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VeHinh/Clientdemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VeHinh/ShapeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shape/ShapeServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VeHinh/ShapeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shape/ShapeThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +61,7 @@
       <recent name="D:\java\Lap_trinh_mang\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Shape" />
       <recent name="VeHinh" />
     </key>
   </component>
@@ -118,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668997449602</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="UDP maxServer">
+      <created>1669563012551</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669563012551</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +147,8 @@
     <MESSAGE value="Thread" />
     <MESSAGE value="Echo" />
     <MESSAGE value="Echo from va messeage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Echo from va messeage" />
+    <MESSAGE value="UDP maxServer" />
+    <option name="LAST_COMMIT_MESSAGE" value="UDP maxServer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
